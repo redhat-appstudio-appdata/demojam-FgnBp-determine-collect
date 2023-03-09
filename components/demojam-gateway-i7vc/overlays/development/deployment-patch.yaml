@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: demojam-gateway-i7vc
+  namespace: phayes1-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:ef91a1dad54117377374360f7d361b6dc46a20a791676de2eb99b269ca26c945
+        name: my-nodejs
+        resources: {}
+status: {}
