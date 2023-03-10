@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demojam-gateway-i7vc
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:63dc08e0903b0c8f510af06a27e97dc1289e08dd2ae9ef6aa1a65d465b726988
+      - image: quay.io/redhat-appstudio/user-workload@sha256:ef91a1dad54117377374360f7d361b6dc46a20a791676de2eb99b269ca26c945
         name: my-nodejs
         ports:
         - containerPort: 3001
